@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANDERAS</title>
+    <style media="screen" type="text/css">
+     *{
+         margin: 0;
+         padding: 0;
+     }
+     .bandera{
+        position: relative;
+       left: 75px;
+     }
+     div{
+       border:1px solid gray;
+       width: 40%;
+       margin:30px;
+       display: inline-block;
+       height: 346px;
+       
+     }
+     .españa{
+        background-image:linear-gradient(red 33%,yellow 33%,yellow 66.66%, red 66.66%);
+     }
+      .dinamarca{
+          background-color: red;
+          position: relative;
+          top: 32px;
+      }
+     .dinamarca-vertical{
+         position: relative;
+         display: inline-block;
+         height: 347px;
+         width: 6%;
+         background-color: white;
+         top:-32px;
+         left: 170px;
+         border: none;
+        
+     }
+     .dinamarca-horizontal{
+         position: absolute;
+         display: inline-block;
+         height: 40px;
+         width: 100%;
+         right: -30px;
+         top: 166px;
+         border: none;
+         background-color: white;
+     }
+
+    .emiratos{
+        background-image:linear-gradient(green 33%,white 33%,white 66.66%, black 66.66%);
+        position: relative;
+    }
+
+     .emiratos-rojo{
+        position: relative;
+         height: 347px;
+         width: 20%;
+         background-color:red;
+         top:-32px;
+         right: 31px;
+         border: none;
+     }
+
+
+     .japon{
+	background-image:radial-gradient(circle, red 33%, white 33%, white);
+    position: relative;
+    bottom: 27px;
+}
+
+    </style>
+</head>
+<body>
+<section class="bandera">
+    <!-- España -->
+
+    <div class="españa"></div>
+
+<!-- Dinamarca -->
+      <div class="dinamarca">
+        <div class="dinamarca-vertical"></div>
+         <div class="dinamarca-horizontal"></div>
+      </div>
+
+<!-- Emiratos Arabes -->
+<div class="emiratos">
+    <div class="emiratos-rojo"></div>
+</div>
+
+<!-- Japon -->
+<div class="japon"></div>
+
+</section>
+
+</body>
+</html>
